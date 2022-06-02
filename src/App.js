@@ -1,11 +1,11 @@
 import "./App.css";
+import Header from "./components/shared/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h2>Tooth Care</h2>
-      </header>
+    <div>
+      <Header></Header>
+      <h2>Tooth Care</h2>
     </div>
   );
 }
