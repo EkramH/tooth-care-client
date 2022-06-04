@@ -1,0 +1,44 @@
+.main-color{
+    color: #f4af22;
+}
+
+.main-bg{
+    background-color: #f4af22;
+}
+
+.about-section{
+    margin-top: 100px;
+}
+
+.about-content{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.service-btn{
+    width: 150px;
+    height: 48px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 45px;
+    font-weight: 600;
+    background-color: #fff;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.service-btn:hover{
+        background-color: #f4af22;
+        box-shadow: 0px 15px 20px #f4ae2262;
+        color: #fff;
+        transform: translateY(-7px);
+}
+
+/* Mobile Responsive */
+@media (max-width: 576px) {
+    .main-container, .about-content-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+}
